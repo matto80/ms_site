@@ -18,7 +18,7 @@ footer {
 
 header {
   background-color: #9e003f;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Courier Prime', monospace;
   text-align: center;
   font-size: 2rem;
@@ -26,12 +26,12 @@ header {
 }
 
 h1 {
-  font-size: 3.1rem;
+  font-size: 2.1rem;
 }
 
 body {
   background-color:  #9e003f;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Courier Prime', monospace;
 }
 
@@ -40,14 +40,44 @@ body {
   height: auto;
 }
 
-.cat {
-  padding: 1rem;
+/*
+.cf {
+  position: relative;
   height: 100px;
   width: 100px;
+  margin: 0 auto;
+}
+
+.cat {
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cf cat.top:hover {
+  opacity: 0;
+}
+*/
+
+.cat {
   display: block;
+  border-radius: 50%;
+  border-style: solid;
+  color: #9c0c46;
+  border-width: 1px;
+  width: 100px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
+  background: transparent url("../images/luna/eyes_open.png") no-repeat;
+  background-size: 100px 100px;
 }
+
 .cat:hover {
-  mask-image: url("https://www.google.com");
+  background: transparent url("../images/luna/eyes_closed.png") no-repeat;
+  background-size: 100px 100px;
 }
+
