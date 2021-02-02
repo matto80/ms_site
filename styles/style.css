@@ -1,0 +1,53 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header,
+nav,
+main,
+section,
+article,
+footer {
+  display: block;
+}
+
+header {
+  background-color: #9e003f;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 3.1rem;
+}
+
+body {
+  background-color:  #9e003f;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.cat {
+  padding: 1rem;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cat:hover {
+  mask-image: url("https://www.google.com");
+}
